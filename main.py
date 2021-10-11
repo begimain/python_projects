@@ -3,14 +3,25 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
+name = "Begimai"
+def greet_global():
+      print(f'Hi, {name}')
+      greet_global()
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+print(f'Hi, {name}')
 
+a = [['Kyrgyzstan', 996], ['Russia', 7]]
+t = dict(a)
+print(t)
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+type_int = 5
+type_float = 2.5
+type_str = "Begimai"
+type_list = "Swaroop"
+type_tuple = ( 23, 45, 50, 65.40)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print(type_int)
+print(type_float)
+print(type_str)
+print(type_list)
+print(type_tuple.__sizeof__())
