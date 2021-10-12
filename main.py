@@ -19,9 +19,13 @@ type_float = 2.5
 type_str = "Begimai"
 type_list = "Swaroop"
 type_tuple = ( 23, 45, 50, 65.40)
+int = str( "Begimai")
+
+
 
 print(type_int)
 print(type_float)
 print(type_str)
 print(type_list)
 print(type_tuple.__sizeof__())
+print(int)
