@@ -18,9 +18,10 @@ type_int = 5
 type_float = 2.5
 type_str = "Begimai"
 type_list = " Swaroop "
-type_tuple = ( 23, 45, 50, 65.40 )
+type_tuple = ( 23, 45, 50, 65.40, )
 int = str( "Begimai")
-
+type_boolean_true = True
+type_boolean_false = False
 
 
 print(type_int)
@@ -29,3 +30,5 @@ print(type_str)
 print(type_list)
 print(type_tuple.__sizeof__())
 print(int)
+print(type_boolean_true)
+print(type_boolean_false)
